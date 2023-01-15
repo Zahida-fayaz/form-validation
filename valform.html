@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task2</title>
+
+<link rel="stylesheet" type="text/css" href="C:\Users\786\Desktop\form-validation\valform.css">
+
+</head>
+<body>
+<div class="container">
+<form id="validation" method="post">
+
+<div class="ginfo">
+
+<h1>General Information</h1>
+ <label for="title" >Title</label>
+   <select name="title" class="sel1">
+	  <option></option>
+    </select>
+    <br>
+   
+   <input type="text" name="title" class="adjust">
+   <br>
+   <br>
+ <div class="div1">
+ 
+ <label for="fname">First Name</label><br>
+ <input class="fn" type="text" name="fname" required>
+ 
+ 
+ <!--<span class="lastname">-->
+ <label for="lname" class="lna">Last Name</label><br>
+ <input class="ln" type="lname" name="lname" required>
+
+</div>
+
+<br>
+<label for="position" class="adjust">Position</label>
+   <select name="position" class="sel1">
+	 <option></option>
+   </select><br>
+   <input type="position" name="position" class="adjust">
+   <br>
+   <label for="company" class="adjust">Company</label>
+   <br>
+   
+   <input type="text" name="company" class="adjust"><br>
+   <label for="bussinessarea">Bussiness Area</label><br>
+   <input type="text"  name="businessarea" class="fn">
+   <span class="emp">
+   <label for="employee">Employee</label>
+   <select name="employee" class="sel">
+	 <option></option>
+   </select><br>
+   <input type="text" name="employee">
+   
+   </span>
+   
+
+</div>
+<div class="cdetail">
+   <h1>Contact Details</h1>
+    <label for="street">Street + Nr</label>
+    <br>
+    <input type="text" name="street" class="adjust">
+    <br>
+    <label for="adinfo">Additional Information</label>
+    <br>
+    <input type="text" name="adinfo" class="adjust">
+    <br>
+    <label for="zipcode">Zip Code</label>
+    <br>
+    <input type="text" name="zipcode">
+    <span class="place">
+        <label for="place" class="place">Place</label>
+        <select name="place" class="sel">
+    	   <option></option>
+        </select>
+        </span>
+    <br>
+    <input type="text" name="place" class="place1">
+    
+    <br>
+    <label for="country">Country</label>
+    <select name="country" class="sel2" >
+    	<option></option>
+    </select>
+    <br>
+    <input type="country"  name="country" class="adjust">
+    <br>
+    <label for="code">Code +</label>
+    <br>
+    <input type="text" id="code" name="code">
+    <span class="phone">
+      <label for="phno" class="phone">Phone Number</label>
+      <br>
+      <input type="phone" name="phno">
+      <br>
+    </span>  
+    <label for="email">Your Email</label>
+    <br>
+    <input type="email" name="email" class="adjust" required>
+    <br>
+    <input type="radio" name="radio">
+    <label for="submit">i do accept the <a href="">Terms and Conditions</a> of your site.</label>
+    <br>
+    <button type="submit" class="btn">Register</button>
+     <button type="reset" class="btn1">Clear</button>
+    	
+ </div>
+	
+</div>
+</form>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+   <script src="script2.js"></script>
+
+</body>
+</html>
